@@ -33,8 +33,8 @@ body {
 }
 .calculator span {
   display: grid;
-  width: 100.4412238325281805vh;
-  height: 12.32394366197183vh;
+  width: 15.4412238325281805vh;
+  height: 15.32394366197183vh;
   color: #fff;
   background: #2f6590;
   place-items: center;
