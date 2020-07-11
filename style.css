@@ -26,8 +26,8 @@ body {
   text-align: right;
   border: none;
   outline: none;
-  padding: 10%;
-  font-size: 5rem;
+  padding: 0px;
+  font-size: 16px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
