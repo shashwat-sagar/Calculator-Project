@@ -26,14 +26,14 @@ body {
   text-align: right;
   border: none;
   outline: none;
-  padding: 10px;
+  padding: none;
   font-size: 60px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 .calculator span {
   display: grid;
-  width: 6.4412238325281805vw;
+  width: 6.4412238325281805vh;
   height: 12.32394366197183vh;
   color: #fff;
   background: #2f6590;
