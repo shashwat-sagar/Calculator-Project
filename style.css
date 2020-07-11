@@ -2,7 +2,11 @@
 /* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
 
 @import url("https://fonts.googleapis.com/css?family= Poppins: 300,400,500,600,700,800,900& display= swap");
-@media="screen and (min-width: 900px)";
+@media only screen and (min-width: 768px){
+{ display:none;
+}
+width:80%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +19,8 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #003f71;
+  position: initial;
+  z-index: initial;
 }
 .calculator {
   position: relative;
