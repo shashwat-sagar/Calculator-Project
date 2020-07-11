@@ -40,7 +40,7 @@ body {
   place-items: center;
   border: 0px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  font-size:20px;
+  font-size:40px;
 }
 @media only screen and (max-width: 600px) {
   .calculator span {
