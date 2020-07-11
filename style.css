@@ -22,7 +22,7 @@ body {
 }
 .calculator .value {
   grid-column: span 4;
-  height: 100vh;
+  height: 17.1vh;
   text-align: right;
   border: none;
   outline: none;
