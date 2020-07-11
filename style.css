@@ -27,7 +27,7 @@ body {
   border: none;
   outline: none;
   padding: calc((1.7605633802816902vh * 0.8051529790660226vw));
-  font-size: calc((3.1690140845070425vh * 1.4492753623188406vw));
+  font-size: calc((3.1690140845070425vh * 2.4492753623188406vw));
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
