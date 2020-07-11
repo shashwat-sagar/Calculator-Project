@@ -22,12 +22,12 @@ body {
 }
 .calculator .value {
   grid-column: span 4;
-  height: 17.2vh;
+  height: 17.6vh;
   text-align: right;
   border: none;
   outline: none;
   padding: calc((1.7605633802816902vh * 0.8051529790660226vw) / 2);
-  font-size: calc((3.1690140845070425vh * 1.4492753623188406vw) / 2);
+  font-size: 60px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -40,7 +40,7 @@ body {
   place-items: center;
   border: 0px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  font-size:40px;
+  font-size:50px;
 }
 @media only screen and (max-width: 600px) {
   .calculator span {
