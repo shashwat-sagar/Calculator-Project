@@ -26,7 +26,7 @@ body {
   text-align: right;
   border: none;
   outline: none;
-  padding: calc((1.7605633802816902vh * 0.8051529790660226vw) / 2);
+  padding: calc((1.7605633802816902vh * 0.8051529790660226vw));
   font-size: calc((3.1690140845070425vh * 1.4492753623188406vw));
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -53,7 +53,7 @@ body {
 }
 @media only screen and (max-width: 1080px) and (min-width: 901px) {
   .calculator span {
-    width: 18vw;
+    width: 20vw;
   }
 }
 
