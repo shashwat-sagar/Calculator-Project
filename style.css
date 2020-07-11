@@ -26,8 +26,8 @@ body {
   text-align: right;
   border: none;
   outline: none;
-  padding: none;
-  font-size: 40px;
+  padding: calc((1.7605633802816902vh * 0.8051529790660226vw) / 2);
+  font-size: calc((3.1690140845070425vh * 1.4492753623188406vw) / 2);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
