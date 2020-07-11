@@ -22,12 +22,12 @@ body {
 }
 .calculator .value {
   grid-column: span 4;
-  height: 17.6056338028169vh;
+  height: 100vh;
   text-align: right;
   border: none;
   outline: none;
   padding: 0px;
-  font-size: 16px;
+  font-size: 80px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
