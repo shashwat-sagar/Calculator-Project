@@ -38,21 +38,21 @@ body {
   color: #fff;
   background: #2f6590;
   place-items: center;
-  border: 0px solid rgba(0, 0, 0, 0.1);
+  border: 0px solid rgba(0, 0, 0, 0);
   cursor: pointer;
   font-size:50px;
 }
-@media only screen and (max-width: 600px) {
+@media all(max-width: 600px) {
   .calculator span {
     width: 18vw;
   }
 }
-@media only screen and (max-width: 940px) and (min-width: 601px) {
+@media all (max-width: 940px) and (min-width: 601px) {
   .calculator span {
     width: 12vw;
   }
 }
-@media only screen and (max-width: 1080px) and (min-width: 901px) {
+@media all(max-width: 1080px) and (min-width: 901px) {
   .calculator span {
     width: 20vw;
   }
