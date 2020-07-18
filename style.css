@@ -1,0 +1,85 @@
+/* Created Using Easy HTML v1.4.5 */
+/* https://play.google.com/store/apps/details?id=ak.andro.easyhtml */
+
+@import url("https://fonts.googleapis.com/css?family= Poppins: 300,400,500,600,700,800,900& display= swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000;
+}
+.calculator {
+  position: relative;
+  display: grid;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16), 0 5px 14px 0 rgba(0, 0, 0, 0.12);
+  height:70%;
+  width:80%;
+}
+.calculator .value {
+  grid-column: span 4;
+  height: 140%;
+  width: 100%;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: none;
+  font-size: 50px;
+  border-top-left-radius: 25px;
+  color:#0A5FEA;
+  border-top-right-radius: 25px;
+}
+.calculator span {
+  display: grid;
+  width: 0;
+  height: 100%;
+  color: #fff;
+  background: #262626;
+  place-items: center;
+  border: 0.1px solid rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size:30px;
+}
+@media (max-width: 600px) {
+  .calculator span {
+    width:100%;
+  }
+}
+@media (max-width: 940px) and (min-width: 601px) {
+  .calculator span {
+    width: 100%;
+  }
+}
+@media (max-width: 1080px) and (min-width: 901px) {.calculator span {
+    width: 100%;
+  }
+}
+
+.calculator span:active {
+  background: #F1F1F1;
+  color: #111;
+}
+.calculator span.clear {
+  grid-column: span 2;
+  width: 100%;
+  background: #01C7FF;
+}
+.calculator span.plus {
+  grid-row: span 2;
+  height: 100%;
+}
+.calculator span.equal {
+  background: #FFB601;
+  grid-row: span 1;
+  height: 100%;
+  border-bottom-right-radius: 25px;
+}
+.bottom-border-left {
+  border-bottom-left-radius: 25px;
+}
